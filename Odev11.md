@@ -3,9 +3,11 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 
 
 1)actor ve customer tablolarında bulunan first_name sütunları için tüm verileri sıralayalım.
-``` select first_name from actor 
+``` 
+select first_name from actor 
 union 
-select first_name customer ```
+select first_name customer
+```
 
 2)actor ve customer tablolarında bulunan first_name sütunları için kesişen verileri sıralayalım.
 3)actor ve customer tablolarında bulunan first_name sütunları için ilk tabloda bulunan ancak ikinci tabloda bulunmayan verileri sıralayalım.
