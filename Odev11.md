@@ -29,7 +29,7 @@ select first_name customer
 ```
 ```
 select first_name from actor 
-intersect 
+intersect all
 select first_name customer
 ```
 ```
